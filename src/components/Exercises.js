@@ -40,9 +40,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   }, [bodyPart]);
 
   return (
-<<<<<<< HEAD
-    <Box id='exercises'></Box>
-=======
     <Box id='exercises' 
       sx={{ mt: { lg: '110px' }}} 
       mt='50px' 
@@ -75,7 +72,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
           )}
       </Stack>
     </Box>
->>>>>>> b712f279240cf2babd00a535c7cd8042591d3c0c
   )
 }
 
