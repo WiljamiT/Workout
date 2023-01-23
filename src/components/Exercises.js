@@ -6,7 +6,7 @@ import { exerciseOptions, fetchData } from '../utils/fetchData';
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
-    <div>Exercises</div>
+    <Box id='exercises'></Box>
   )
 }
 
